@@ -1,0 +1,213 @@
+:root {
+  --color-default: #212529;
+  --color-primary: #ce1212;
+  --color-primary-hover: rgba(206, 18, 18, 0.8);
+  --color-secondary: #37373f;
+  --color-tertiary: #7f7f90;
+  --color-light: #ffffff;
+  --color-light-grey: #eee;
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Amatic SC", sans-serif;
+  --animation-duration: 400ms;
+  --fav-icon: url(../images/team-shape.svg);
+}
+
+@media screen and (max-width: 1350px) {
+  .navbar {
+    padding: 5px 50px;
+    justify-content: space-between;
+  }
+  .home-sec {
+    min-height: 50vh;
+    align-items: center;
+    padding-top: 10%;
+  }
+  .parent-sec {
+    width: 90%;
+  }
+  /* ============================================================= */
+  .gallery-sec {
+    padding: 50px 0px;
+  }
+  .gallery-imges {
+    width: 70%;
+    flex-direction: column;
+    height: 1100px;
+    margin: 20px 30px;
+  }
+  .gallery-item {
+    width: 42%;
+  }
+
+  /* ============================================================= */
+
+  .continar {
+    width: 90%;
+    padding: 10px;
+  }
+
+  /* ============================================================= */
+
+  .footer {
+    padding: 20px 0px;
+  }
+  .footer .continar {
+    width: 90%;
+  }
+  .footer .logo {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .home-sec {
+    min-height: 100vh;
+  }
+  .parent-sec {
+    flex-direction: column;
+    width: 80%;
+  }
+  .img-home {
+    padding-top: 20px;
+    width: 90%;
+  }
+  .content-home {
+    width: 100%;
+    text-align: center;
+    order: 1;
+  }
+  .home-ancors {
+    justify-content: center;
+  }
+  /* ============================================================= */
+  .chefs-info {
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .chef {
+    width: 40%;
+  }
+
+  /* ============================================================= */
+  .img1 {
+    order: -10;
+  }
+  .img5 {
+    order: -9;
+  }
+  .img2 {
+    order: -8;
+  }
+  .img4 {
+    order: -7;
+  }
+  .gallery-imges {
+    width: 80%;
+    flex-direction: column;
+    height: 1500px;
+    margin: 20px auto;
+  }
+  .gallery-item {
+    width: 50%;
+  }
+  /* ============================================================= */
+
+  .continar {
+    width: 90%;
+    padding: 10px;
+  }
+
+  /* ============================================================= */
+  .footer .continar {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer .logo {
+    width: 60%;
+    order: -3;
+  }
+  .footer .detials {
+    width: 30%;
+    order: -2;
+  }
+  .footer .sub {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .navbar {
+    padding: 5px 10px;
+    justify-content: space-between;
+  }
+  .parent-sec {
+    width: 100%;
+  }
+  .img-home {
+    padding-top: 60px;
+    width: 95%;
+  }
+  /* ============================================================= */
+  .chefs-info {
+    width: 75%;
+    flex-wrap: wrap;
+  }
+  .chef {
+    width: 100%;
+  }
+  /* ============================================================= */
+  .gallery-sec {
+    padding: 50px 20px;
+  }
+  .gallery-imges {
+    width: 90%;
+    flex-direction: row;
+    height: auto;
+  }
+  .gallery-item {
+    width: 100%;
+  }
+  /* ============================================================= */
+
+  .continar {
+    width: 90%;
+    padding: 10px;
+  }
+  .item {
+    width: 100%;
+  }
+  /* ============================================================= */
+  .footer{
+    background-position: center;
+  }
+  .footer .continar {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer .logo {
+    width: 100%;
+    order: -3;
+    margin-bottom: 5px;
+  }
+  .footer .detials {
+    width: 100%;
+    order: -2;
+  }
+  .footer .sub {
+    width: 100%;
+    order: -2;
+  }
+
+  .foot-input input {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .foot-input button {
+    padding: 10px 0px;
+    width: 100%;
+  }
+}
